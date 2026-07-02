@@ -18,19 +18,14 @@ layout {
         proportion 0.5
     }
 
-    border {
-        enable true
-        width 3
-        active-gradient from="#cba6f7" to="#b4befe" angle=45
-        inactive-color "#313244"
-    }
+    // Flat Niri Layout Styles (No sub-braces)
+    border-width 3
+    border-active-gradient from="#cba6f7" to="#b4befe" angle=45
+    border-inactive-color "#313244"
 
-    focus-ring {
-        enable true
-        width 2
-        active-color "#f5c2e7"
-        inactive-color "#1e1e2e"
-    }
+    focus-ring-width 2
+    focus-ring-active-color "#f5c2e7"
+    focus-ring-inactive-color "#1e1e2e"
 }
 
 binds {
